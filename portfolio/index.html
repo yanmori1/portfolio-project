@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your website description">
+    <link rel="stylesheet" href="style.css">
+    <title>Yan Mori - Portfolio</title>
+</head>
+<body>
+    <center> <h1>Yan Mori</h1>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="https://github.com/yanmori1">GitHub</a></li>
+                <!-- Add more links as needed -->
+            </ul>
+        </nav> </center>
+    <section id="about">
+        <center> <h1>About Me</h1>
+        <p>Hello there! Thank you for looking at my portfolio. I'm Yan Mori.</p>
+        <p>I'm originally from Japan and moved to the United States in 2011. I have lived in the states for about 12 years now.</p>
+        <p>I have joined Basecamp Coding Academy with the hopes of pursuing a career in software development.</p></center>
+    </section>
+
+    <center><section id="skills">
+       <h2>Skills</h2>
+     <ul class="skills-list">
+            <li>
+                <img src="images/Python.png" alt="Python Icon" class="skill-icon">
+                <p>Python</p>
+            </li>
+            <li>
+                <img src="images/sql.png"  alt="SQL Icon" class="skill-icon">
+                <p>SQL</p>
+            </li>
+            <li>
+                <img src="images/C++.png" alt="C++ Icon" class="skill-icon">
+                <p>C++</p>
+            </li>
+            <li>
+                <img src="images/html.png" alt="HTML Icon" class="skill-icon">
+                <p>HTML</p>
+            </li>
+            <li>
+                <img src="images/css.png" alt="CSS Icon" class="skill-icon">
+                <p>CSS</p>
+            </li>
+            <li>
+                <img src="images/js.png" alt="JavaScript Icon" class="skill-icon">
+                <p>JavaScript</p>
+            </li>
+            <!-- Add more skills as needed -->
+        </ul> 
+    </section> </center>
+
+    <center><section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Mobile Friendly</h3>
+            <p>This project demonstrates mobile-friendly design.</p>
+            <a href="https://github.com/yanmori1/mobile-friendly.git" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+        </div>
+        <div class="project">
+            <h3>Goat</h3>
+            <p>This project is a tribute to our favorite person or role model.</p>
+            <a href="https://github.com/yanmori1/goat.git" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section></center>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> email:Carefreetrout9@gmail.com | contact:385-424-8707</p>
+    </footer>
+
+    <script>
+        // Update the copyright year dynamically
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
